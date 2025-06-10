@@ -6,13 +6,16 @@
 
 // To include ptools in compilation:
 // gcc example.c -L. -lptools -o example
+#include <stdio.h>
 
 extern void clear_scr(void);
 extern void put_startBanner(void);
 extern void put_endBanner(void);
+extern int stringlen(const char* string);
 
 int main() {
-    put_startBanner();
-    put_endBanner();
-    clear_scr();
+    const char* mystring = "Hello, World!";
+    int len = stringlen(mystring);
+    printf("Length of %s is %d\n", mystring, len);
+    return 0;
 }

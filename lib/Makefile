@@ -4,7 +4,7 @@ CC      = gcc
 AR      = ar
 ARFLAGS = rcs
 
-ASM_SRCS = clear-scr.asm put-banner.asm
+ASM_SRCS = clear-scr.asm put-banner.asm stringlen.asm
 ASM_OBJS = $(ASM_SRCS:.asm=.o)
 
 LIB_NAME = libptools.a
