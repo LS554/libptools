@@ -8,8 +8,12 @@
 // gcc example.c -L. -lptools -o example
 
 extern void clear_scr(void);
+extern void put_startBanner(void);
+extern void put_endBanner(void);
 
 int main() {
-    clear_scr();
+    //clear_scr();
+    put_startBanner();
+    put_endBanner();
     return 0;
 }
