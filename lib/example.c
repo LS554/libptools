@@ -12,8 +12,7 @@ extern void put_startBanner(void);
 extern void put_endBanner(void);
 
 int main() {
-    //clear_scr();
     put_startBanner();
     put_endBanner();
-    return 0;
+    clear_scr();
 }
