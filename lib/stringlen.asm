@@ -4,9 +4,6 @@
 
 global stringlen
 
-section .data
-  string: db "Hello, World!", 0 ; string 
-
 section .text
 
 stringlen:
