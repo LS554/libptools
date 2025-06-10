@@ -17,7 +17,7 @@ The lib/ directory contains the library ready code of each function.
 You can download the compiled library in releases.
 
 # Disclaimer
-This was more of an educational project for myself, please do not expect this library to be actually useful/practical or production ready in any way.
+This is more of an educational project for myself, please do not expect this library to be actually useful/practical or production ready in any way.
 
 # License
 
