@@ -6,8 +6,8 @@ global stringlen
 
 section .text
 
-stringlen:
-;start find string length
+stringlen: ;start find string length
+
 xor rax, rax ; (efficient) set counter to 0
 
 ;start loop
