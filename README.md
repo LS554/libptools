@@ -3,6 +3,7 @@ libptools / ptools is a library of helpful programme tools written in Assembly.
 
 # About
 I currently have the following functions in ptools:
+* Find length of string
 * Clear screen
 * Display entry/exit banner
   <br>
@@ -10,9 +11,17 @@ I currently have the following functions in ptools:
 I will likely be working on adding more.
 
 # Help
-The src/ directory contains example code of each library function. These can be ran on their own, but are not ready for use in the ptools library. There is also a basic example c programme that acts as a runner to test each ptool function.
+The src/ directory contains example code of each library function. These can be run as individual programmes, but are not ready for use in the ptools library.
 
-The lib/ directory contains the library ready code of each function.
+<br>
+
+*Note: Not all functions are available as individual programmes in the src/ directory.
+
+<br>
+
+The lib/ directory contains the library ready code of each function. There is also a basic example c programme that acts as a runner to test each ptool function.
+
+<br>
 
 You can download the compiled library in releases.
 
